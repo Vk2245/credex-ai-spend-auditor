@@ -84,7 +84,7 @@ export function AISummary() {
         </div>
         
         <p className="text-slate-300 text-sm leading-relaxed italic">
-          "{summary}"
+          &quot;{summary}&quot;
         </p>
       </CardContent>
     </Card>

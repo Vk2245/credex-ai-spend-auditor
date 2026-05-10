@@ -68,7 +68,7 @@ export function LeadCaptureForm() {
           <div>
             <h3 className="text-xl font-semibold text-emerald-400">Audit Saved!</h3>
             <p className="text-slate-300 mt-2 text-sm max-w-md mx-auto">
-              We've generated your custom PDF report and optimization playbook. Check your inbox shortly.
+              We&apos;ve generated your custom PDF report and optimization playbook. Check your inbox shortly.
             </p>
           </div>
         </CardContent>

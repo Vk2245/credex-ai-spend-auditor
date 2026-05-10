@@ -7,7 +7,6 @@ import { HeroSavings } from "./hero-savings";
 import { ToolResultCard } from "./tool-result-card";
 import { AISummary } from "./ai-summary";
 import { LeadCaptureForm } from "./lead-capture-form";
-import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 
 export function AuditResults() {

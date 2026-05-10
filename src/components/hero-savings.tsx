@@ -1,6 +1,6 @@
 import { AuditResult } from "@/lib/types";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowDown, CheckCircle2, TrendingDown } from "lucide-react";
+import { CheckCircle2, TrendingDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface HeroSavingsProps {
@@ -45,7 +45,7 @@ export function HeroSavings({ result }: HeroSavingsProps) {
                 <div className="flex-1 space-y-2">
                   <h3 className="text-emerald-400 font-semibold text-lg">Massive Savings Potential</h3>
                   <p className="text-slate-300 text-sm">
-                    You're bleeding over $6,000 annually in redundant AI tooling. 
+                    You&apos;re bleeding over $6,000 annually in redundant AI tooling. 
                     Credex can negotiate enterprise volume discounts and enforce standard tooling for your team.
                   </p>
                 </div>
@@ -55,7 +55,7 @@ export function HeroSavings({ result }: HeroSavingsProps) {
               </div>
             ) : (
               <p className="text-slate-400 text-sm">
-                Apply the tool-specific recommendations below to stop bleeding cash and streamline your team's workflows.
+                Apply the tool-specific recommendations below to stop bleeding cash and streamline your team&apos;s workflows.
               </p>
             )}
           </div>

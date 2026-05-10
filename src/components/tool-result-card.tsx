@@ -9,7 +9,6 @@ interface ToolResultCardProps {
 
 export function ToolResultCard({ rec }: ToolResultCardProps) {
   const toolDetails = getToolDetails(rec.toolId);
-  const recommendedToolDetails = rec.recommendedToolId ? getToolDetails(rec.recommendedToolId) : toolDetails;
   
   if (!toolDetails) return null;
 

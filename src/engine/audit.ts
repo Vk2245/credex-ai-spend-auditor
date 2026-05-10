@@ -51,7 +51,7 @@ export function generateAudit(input: UserInputState): AuditResult {
 
     let recAction: ToolRecommendation["recommendedAction"] = "KEEP";
     let recPlanId = selection.planId;
-    let recToolId = selection.toolId;
+    const recToolId = selection.toolId;
     let recommendedSpend = selection.monthlySpend;
     let reason = "Your current plan is optimal for your reported usage.";
 
