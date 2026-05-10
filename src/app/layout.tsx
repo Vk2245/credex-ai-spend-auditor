@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Toaster } from "@/components/ui/sonner";
 
 // ── Font Setup ──
 // Inter is one of the most readable UI fonts, widely used in SaaS products.
@@ -51,6 +52,7 @@ export default function RootLayout({
         )}
       >
         {children}
+        <Toaster theme="dark" />
       </body>
     </html>
   );

@@ -1,6 +1,8 @@
 "use client";
 
 import { useAuditStore } from "@/store/useAuditStore";
+import { SpendForm } from "@/components/spend-form";
+import { AuditResults } from "@/components/audit-results";
 
 export default function Home() {
   const { currentStep } = useAuditStore();
@@ -43,17 +45,11 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Form will go here in Step 2 */}
-            <div className="rounded-2xl border border-white/10 bg-slate-900/50 p-8 text-center text-slate-500">
-              <p>Spend Input Form — Coming in Step 2</p>
-            </div>
+            <SpendForm />
           </section>
         ) : (
           <section>
-            {/* Audit Results will go here in Step 4 */}
-            <div className="rounded-2xl border border-white/10 bg-slate-900/50 p-8 text-center text-slate-500">
-              <p>Audit Results — Coming in Step 4</p>
-            </div>
+            <AuditResults />
           </section>
         )}
       </main>
