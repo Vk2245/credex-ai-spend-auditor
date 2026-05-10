@@ -6,6 +6,7 @@ import { generateAudit } from "@/engine/audit";
 import { HeroSavings } from "./hero-savings";
 import { ToolResultCard } from "./tool-result-card";
 import { AISummary } from "./ai-summary";
+import { LeadCaptureForm } from "./lead-capture-form";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 
@@ -53,10 +54,8 @@ export function AuditResults() {
         <AISummary />
       </div>
 
-      {/* Placeholder for Lead Capture (Step 6) */}
-      <div className="mt-12 p-8 border border-dashed border-slate-800 rounded-xl text-center text-slate-500">
-        <p>Email Report Capture — Coming in Step 6</p>
-      </div>
+      {/* Step 6: Lead Capture Form */}
+      <LeadCaptureForm />
 
     </div>
   );
