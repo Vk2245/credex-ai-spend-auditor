@@ -32,3 +32,17 @@
 **What I learned:** Learned how to dynamically disable inputs based on specific tool plan capabilities (e.g., individual plans can't have multiple seats).
 **Blockers / what I'm stuck on:** Managing time effectively before the 13th exam.
 **Plan for tomorrow:** Complete the Audit Engine and Audit Results page.
+
+## Day 6 — 2026-05-11
+**Hours worked:** 0
+**What I did:** Focused entirely on studying for my upcoming university exam on the 13th. 
+**What I learned:** —
+**Blockers / what I'm stuck on:** Exam pressure is peaking. Will resume the sprint tomorrow to finish the MVP backend.
+**Plan for tomorrow:** Build the Audit Engine, Results Dashboard, and AI integration.
+
+## Day 7 — 2026-05-12
+**Hours worked:** 5
+**What I did:** Major sprint today despite the exam tomorrow. Implemented the core deterministic Audit Engine (math rules). Built the Audit Results Dashboard. Integrated the Anthropic API for the 100-word CFO summary with a graceful fallback. Finally, integrated Supabase for lead capture and added a honeypot field for bot protection.
+**What I learned:** Learned how to safely hide API keys in Next.js Server Route Handlers and how effective a simple CSS `opacity-0` honeypot can be at stopping spam bots without hurting UX.
+**Blockers / what I'm stuck on:** The assignment requires a Shareable URL and transactional emails. Need to figure out Resend and dynamic routes next.
+**Plan for tomorrow:** Ace my exam, then complete the final MVP features (Viral Loop & Emails) and write all the required markdown documentation.
